@@ -1,0 +1,89 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #4e5e82;
+}
+
+.card {
+  width: 100%;
+  max-width: 360px;
+  background: #ffffff;
+  padding: 30px 25px;
+  border-radius: 12px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.12);
+  text-align: center;
+}
+
+.card h1 {
+  color: #526db8; 
+  margin-bottom: 20px;
+}
+
+.card input {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 6px;
+  border: 1px solid #cbd5e1;
+  outline: none;
+  font-size: 14px;
+}
+
+.card input:focus {
+  border-color: #2563eb;
+  box-shadow: 0 0 0 2px rgba(37, 99, 235, 0.2);
+}
+
+.card button {
+  width: 100%;
+  padding: 10px;
+  margin-top: 15px;
+  background: #3061e8;
+  color: #ffffff;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.card button:hover {
+  background: #3061e8;
+}
+
+.card p {
+  margin-top: 12px;
+  font-size: 14px;
+}
+
+.card a {
+  color: #3061e8;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.card a:hover {
+  text-decoration: underline;
+}
+
+.msg {
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+.msg.error {
+  color: #dc2626;
+}
+
+.msg.success {
+  color: #16a34a;
+}
